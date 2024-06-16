@@ -1,0 +1,6 @@
+Установка Django - pip install Django
+Создание проекта DjangoTestProject - django-admin startproject DjangoTestProject
+Переход в папку с проектом - cd DjangoTestProject
+Тестовый запуск сервера - python manage.py runserver
+Создание приложения - python manage.py startapp polls
+Запуск сервера - python manage.py runserver
