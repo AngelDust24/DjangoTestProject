@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Question
+
+# Сообщаем что у объектов Question есть интерфейс администратора
+admin.site.register(Question)
